@@ -21,7 +21,7 @@ def main():
     ensure_directories()
 
     # Path to dataset
-    data_path = "data/student_performance.csv"
+    data_path = "data/performance.csv"
 
     print(f"\nLoading & preprocessing dataset: {data_path}")
     
@@ -37,7 +37,7 @@ def main():
     print("Model training complete.")
     print_metrics(auc)
 
-    print("📁 Model saved to: models/logistic_regression_model")
+    print("Model saved to: models/logistic_regression_model")
     print("\nPipeline complete!")
 
 
